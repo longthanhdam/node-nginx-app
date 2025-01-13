@@ -16,6 +16,7 @@ spec:
       containers:
       - name: node-app
         image: mmregistry.mmvietnam.com:5000/node-nginx-app:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 3000
       imagePullSecrets:
