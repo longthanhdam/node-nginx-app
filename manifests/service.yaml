@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: node-nginx-service
+  name: node-nginx-app
 spec:
   selector:
     app: node-nginx-app
